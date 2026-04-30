@@ -2,7 +2,10 @@
 
 The complete, step-by-step guide to installing AndrobianOS on your Android tablet using Termux. Please follow these instructions sequentially to ensure a successful setup.
 
-<img width="854" height="214" alt="boot animation" src="https://github.com/user-attachments/assets/3ee63624-0e2d-4fae-b8e8-0f2876d3f75b" />
+
+<p align="center">
+  <img width="854" height="214" alt="boot animation" src="https://github.com/user-attachments/assets/3ee63624-0e2d-4fae-b8e8-0f2876d3f75b" />
+</p>
 
 ## 📑 Table of Contents
 1. [Phase 1: Android Settings](#phase-1-android-settings)
@@ -234,4 +237,5 @@ joy
 | **Any Package "404 Not Found" Error** | Run apt update -y first to refresh repository links, then retry installing the specific package. |
 ```
 
-```
+---
+> **`// SYS_ACK_INIT:`** `Compilation and logic processing powered with thanks to Claude.` 🤖
