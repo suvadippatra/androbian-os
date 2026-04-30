@@ -1,0 +1,173 @@
+{
+  "_comment": "AndrobianOS App Manifest — hosted on GitHub",
+  "_version": "1.0",
+  "_last_updated": "2025-01-01",
+  "_how_to_update": "Edit this file on GitHub. The App Store fetches it each time it opens.",
+
+  "suite_apps": [
+    {
+      "id": "pdf_merge",
+      "name": "PDF Merge",
+      "icon": "⊕",
+      "file": "pdf_merge.py",
+      "version": "1.0",
+      "desc": "Merge multiple PDFs in any custom order. Drag to reorder, click to merge.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf"],
+      "size_kb": 9
+    },
+    {
+      "id": "pdf_split",
+      "name": "PDF Split",
+      "icon": "✂",
+      "file": "pdf_split.py",
+      "version": "1.0",
+      "desc": "Split PDF by page ranges (1-5, 8, 10-12), every N pages, or extract pages.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf"],
+      "size_kb": 13
+    },
+    {
+      "id": "pdf_nup",
+      "name": "PDF N-up",
+      "icon": "⊞",
+      "file": "pdf_nup.py",
+      "version": "1.0",
+      "desc": "Arrange multiple source pages per output sheet. 1×1 through 4×4 layouts.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf", "Pillow"],
+      "size_kb": 13
+    },
+    {
+      "id": "pdf_wm_remove",
+      "name": "Watermark Remover",
+      "icon": "◌",
+      "file": "pdf_wm_remove.py",
+      "version": "1.0",
+      "desc": "Remove watermarks using 4 strategies: annotations, vectors, images, text.",
+      "category": "Watermark",
+      "requires": ["pymupdf"],
+      "size_kb": 18
+    },
+    {
+      "id": "pdf_booklet",
+      "name": "PDF Booklet",
+      "icon": "⊟",
+      "file": "pdf_booklet.py",
+      "version": "1.0",
+      "desc": "Saddle-stitch booklet imposition. Supports multi-sheet signatures.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf"],
+      "size_kb": 15
+    },
+    {
+      "id": "pdf_wm_add",
+      "name": "Add Watermark",
+      "icon": "⬡",
+      "file": "pdf_wm_add.py",
+      "version": "1.0",
+      "desc": "Stamp text or image watermarks on every page. Full opacity and position control.",
+      "category": "Watermark",
+      "requires": ["pymupdf"],
+      "size_kb": 14
+    },
+    {
+      "id": "pdf_compress",
+      "name": "PDF Compress",
+      "icon": "⊘",
+      "file": "pdf_compress.py",
+      "version": "1.0",
+      "desc": "Reduce PDF size. Lossless via PyMuPDF or aggressive via Ghostscript.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf"],
+      "size_kb": 6
+    },
+    {
+      "id": "pdf_rearrange",
+      "name": "Rearrange Pages",
+      "icon": "⇅",
+      "file": "pdf_rearrange.py",
+      "version": "1.0",
+      "desc": "Reorder, delete, or duplicate pages via an interactive list.",
+      "category": "PDF Tools",
+      "requires": ["pymupdf"],
+      "size_kb": 7
+    },
+    {
+      "id": "pdf_to_image",
+      "name": "PDF → Image",
+      "icon": "◫",
+      "file": "pdf_to_image.py",
+      "version": "1.0",
+      "desc": "Extract PDF pages as PNG or JPEG images at any DPI (72–600).",
+      "category": "PDF Tools",
+      "requires": ["pymupdf", "Pillow"],
+      "size_kb": 10
+    },
+    {
+      "id": "image_resizer",
+      "name": "Exam Photo Resizer",
+      "icon": "⊡",
+      "file": "image_resizer.py",
+      "version": "1.0",
+      "desc": "Auto-resize photos for NEET/JEE/SSC/Passport exam upload criteria.",
+      "category": "Utilities",
+      "requires": ["Pillow"],
+      "size_kb": 11
+    },
+    {
+      "id": "calculator",
+      "name": "Scientific Calculator",
+      "icon": "∑",
+      "file": "calculator.py",
+      "version": "1.0",
+      "desc": "Full expression evaluator with function graphing via matplotlib.",
+      "category": "Utilities",
+      "requires": ["matplotlib", "numpy"],
+      "size_kb": 13
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "icon": "⚙",
+      "file": "settings.py",
+      "version": "1.1",
+      "desc": "Wallpaper, theme switcher, time/date, compositor settings.",
+      "category": "System",
+      "requires": [],
+      "size_kb": 23
+    },
+    {
+      "id": "touch_manager",
+      "name": "Touch Manager",
+      "icon": "✋",
+      "file": "touch_manager.py",
+      "version": "1.0",
+      "desc": "Touch mode toggle (Direct / Touchpad). Floating bar with scroll shortcuts.",
+      "category": "System",
+      "requires": [],
+      "size_kb": 10
+    },
+    {
+      "id": "community",
+      "name": "Community & Feedback",
+      "icon": "💬",
+      "file": "community.py",
+      "version": "1.0",
+      "desc": "Submit suggestions and feedback. Saved directly to GitHub.",
+      "category": "System",
+      "requires": [],
+      "size_kb": 8
+    }
+  ],
+
+  "announcements": [
+    {
+      "id": "welcome",
+      "title": "Welcome to AndrobianOS",
+      "body": "Your customised Debian Linux suite is ready. Open the App Store to explore tools.",
+      "type": "info",
+      "date": "2025-01-01"
+    }
+  ]
+}
